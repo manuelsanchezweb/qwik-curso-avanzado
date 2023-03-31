@@ -7,7 +7,7 @@
 </div>
 
 Este curso es una continuación del curso de
-[Qwik de nivel principiantes en español](https://www.udemy.com/user/manuel-sanchez-324/). En este curso dejaremos a un lado toda la parte teórica, y nos pondremos mano a la obra a hacer diferentes proyectos.
+[Qwik de nivel principiantes en español](https://www.udemy.com/course/curso-principiantes-qwik/). En este curso dejaremos a un lado toda la parte teórica, y nos pondremos mano a la obra a hacer diferentes proyectos.
 
 ## 😁 Cómo acceder al curso
 
