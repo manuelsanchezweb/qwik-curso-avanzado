@@ -38,6 +38,6 @@ Aquí te dejo una selección de enlaces que me parecen interesantes sobre Qwik:
 
 ## 📧 Contacto
 
-Si te ha gustado este curso y te has quedado con ganas de más, te invito a que le eches un vistazo a [mis demás cursos de Udemy](https://www.udemy.com/user/manuel-sanchez-324/). Además, también puedes subscribirte a mi canal de [YouTube](https://www.youtube.com/channel/UCX3IE_OjG20p_AwbX06YAEg), donde publico de forma periódica contenido interesante sobre Qwik y otras temáticas de frontend.
+Si te ha gustado este curso y te has quedado con ganas de más, te invito a que le eches un vistazo a [mis demás cursos de Udemy](https://www.udemy.com/user/manuel-sanchez-324/). Además, también puedes subscribirte a mi [Patreon](https://www.patreon.com/manuelsanchezweb) o mi canal de [YouTube](https://www.youtube.com/channel/UCX3IE_OjG20p_AwbX06YAEg), donde publico de forma periódica contenido interesante sobre Qwik y otras temáticas de frontend.
 
 Si quieres contactar conmigo, puedes hacerlo a través de [manusanchezweb@gmail.com](mailto:manusanchezweb@gmail.com).
