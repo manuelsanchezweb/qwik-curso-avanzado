@@ -61,3 +61,21 @@ h1,
 p {
   margin-bottom: 1rem;
 }
+
+@layer components {
+  .bg-brand {
+    @apply bg-[var(--color-brand)];
+  }
+
+  .btn {
+    @apply bg-white py-0.5 px-5 border border-black text-base hover:bg-[var(--color-contrast)] focus:bg-[var(--color-contrast)] cursor-pointer w-fit transition-all;
+  }
+
+  .btn-contrast {
+    @apply bg-[var(--color-contrast)] hover:bg-[var(--color-brand)] focus:bg-[var(--color-brand)];
+  }
+
+  .btn-brand {
+    @apply bg-[var(--color-brand)];
+  }
+}
