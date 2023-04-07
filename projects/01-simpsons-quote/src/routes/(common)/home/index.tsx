@@ -1,9 +1,22 @@
 import { component$ } from "@builder.io/qwik";
-import { Link } from "@builder.io/qwik-city";
+import { Link, routeLoader$ } from "@builder.io/qwik-city";
+import { fetchSimpsons } from "~/api/fetchSimpsons";
 import Container from "~/components/container";
 import { IconQuote } from "~/components/icons/icon-quote";
+import { Character } from "~/types/types";
+
+export const useCharacters = routeLoader$(async () => {
+  try {
+    return await fetchSimpsons();
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
+});
 
 export default component$(() => {
+  const { value: characters } = useCharacters();
+  console.log(characters);
   return (
     <Container classCustom="my-8 flex flex-col items-center justify-center gap-8">
       <div class="text-center">
@@ -11,126 +24,23 @@ export default component$(() => {
         <p>Click on the quote of your favorite character</p>
       </div>
       <ul class="grid-container">
-        <li>
-          <figure class="overflow-hidden relative">
-            <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
-              <img
-                class="max-w-full object-cover object-top translate-x-4"
-                src="../img/lisa.png"
-                alt="Lisa Simpson"
-              />
-            </picture>
-            <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
-              <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
-            </button>
-            <figcaption>Lisa Simpson</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="overflow-hidden relative">
-            <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
-              <img
-                class="max-w-full object-cover object-top translate-x-4"
-                src="../img/lisa.png"
-                alt="Lisa Simpson"
-              />
-            </picture>
-            <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
-              <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
-            </button>
-            <figcaption>Lisa Simpson</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="overflow-hidden relative">
-            <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
-              <img
-                class="max-w-full object-cover object-top translate-x-4"
-                src="../img/lisa.png"
-                alt="Lisa Simpson"
-              />
-            </picture>
-            <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
-              <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
-            </button>
-            <figcaption>Lisa Simpson</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="overflow-hidden relative">
-            <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
-              <img
-                class="max-w-full object-cover object-top translate-x-4"
-                src="../img/lisa.png"
-                alt="Lisa Simpson"
-              />
-            </picture>
-            <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
-              <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
-            </button>
-            <figcaption>Lisa Simpson</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="overflow-hidden relative">
-            <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
-              <img
-                class="max-w-full object-cover object-top translate-x-4"
-                src="../img/lisa.png"
-                alt="Lisa Simpson"
-              />
-            </picture>
-            <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
-              <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
-            </button>
-            <figcaption>Lisa Simpson</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="overflow-hidden relative">
-            <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
-              <img
-                class="max-w-full object-cover object-top translate-x-4"
-                src="../img/lisa.png"
-                alt="Lisa Simpson"
-              />
-            </picture>
-            <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
-              <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
-            </button>
-            <figcaption>Lisa Simpson</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="overflow-hidden relative">
-            <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
-              <img
-                class="max-w-full object-cover object-top translate-x-4"
-                src="../img/lisa.png"
-                alt="Lisa Simpson"
-              />
-            </picture>
-            <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
-              <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
-            </button>
-            <figcaption>Lisa Simpson</figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="overflow-hidden relative">
-            <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
-              <img
-                class="max-w-full object-cover object-top translate-x-4"
-                src="../img/lisa.png"
-                alt="Lisa Simpson"
-              />
-            </picture>
-            <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
-              <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
-            </button>
-            <figcaption>Lisa Simpson</figcaption>
-          </figure>
-        </li>
+        {characters?.slice(0, 12).map((user: Character) => (
+          <li>
+            <figure class="overflow-hidden relative">
+              <picture class="max-w-[150px] max-h-[150px] border border-black flex bg-brand overflow-hidden">
+                <img
+                  class="max-w-full object-cover object-top translate-x-4"
+                  src={user.image}
+                  alt={user.character}
+                />
+              </picture>
+              <button class="border border-black bg-white absolute right-0 bottom-[24px] cursor-pointer hover:bg-gray-50">
+                <IconQuote classCustom="max-w-[40px] max-h-[40px]" />
+              </button>
+              <figcaption>Lisa Simpson</figcaption>
+            </figure>
+          </li>
+        ))}
       </ul>
       <Link class="btn btn-brand">New quotes</Link>
     </Container>
