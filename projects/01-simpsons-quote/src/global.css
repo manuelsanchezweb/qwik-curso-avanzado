@@ -1,4 +1,12 @@
 /**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
  * WHAT IS THIS FILE?
  *
  * Globally applied styles. No matter which components are in the page or matching route,
@@ -12,4 +20,44 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+:root {
+  --color-brand: #ffde00;
+  --color-contrast: #ee3133;
+  --color-light: #fff;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("../src/assets/fonts/Lexend-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("../src/assets/fonts/Lexend-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lexend";
+  src: url("../src/assets/fonts/Lexend-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Lexend", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+p {
+  margin-bottom: 1rem;
 }
