@@ -68,6 +68,15 @@ p {
   min-height: 100vh;
 }
 
+.grid-container {
+  width: 100%;
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  place-items: center;
+  grid-gap: 20px;
+}
+
 @layer components {
   .bg-brand {
     @apply bg-[var(--color-brand)];
