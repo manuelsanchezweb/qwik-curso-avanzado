@@ -7,7 +7,6 @@ export const Header = component$(() => {
   const { menu } = useContent();
 
   const menuNav = menu?.items?.map((item: any) => item);
-  console.log(menuNav);
 
   return (
     <header class="bg-brand w-full border border-black">
