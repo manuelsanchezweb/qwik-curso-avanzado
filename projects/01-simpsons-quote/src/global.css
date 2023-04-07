@@ -62,6 +62,12 @@ p {
   margin-bottom: 1rem;
 }
 
+.grid-page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 @layer components {
   .bg-brand {
     @apply bg-[var(--color-brand)];

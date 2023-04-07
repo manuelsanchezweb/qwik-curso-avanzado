@@ -13,7 +13,7 @@ export default component$(() => {
         <strong>DISCLAIMER:</strong> This is an unofficial app (even though it
         looks so cool!)
       </div>
-      <Link class="btn my-4" href="/">
+      <Link class="btn my-4" href="/home">
         Enter App
       </Link>
       <div class="flex gap-12">
