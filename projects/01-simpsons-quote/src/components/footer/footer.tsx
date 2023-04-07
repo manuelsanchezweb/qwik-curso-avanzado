@@ -7,11 +7,14 @@ export const Footer = component$(() => {
         <strong>All Rights Reserved</strong> - Oh Lord Matt Groening - 1989-2023
       </div>
       <small>
-        This app was done by
+        This app was done by{" "}
         <a
+          rel="noopener noreferrer"
+          target="_blank"
           title="Enlace a GitHub de msweb"
           href="https://github.com/manuelsanchezweb/qwik-simpsons-quote-app"
         >
+          {" "}
           manuelsanchezweb
         </a>
       </small>
