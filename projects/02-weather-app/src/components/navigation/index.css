@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+
+  & a {
+    text-decoration: none;
+    color: var(--color-text-main);
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav {
+    justify-content: flex-start;
+  }
+}
