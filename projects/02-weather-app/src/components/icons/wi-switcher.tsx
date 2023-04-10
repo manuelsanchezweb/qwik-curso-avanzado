@@ -25,7 +25,8 @@ interface WiSwitcherProps {
     | "11d"
     | "11n"
     | "13d"
-    | "13n";
+    | "13n"
+    | string;
 }
 
 export const WiSwitcher = component$<WiSwitcherProps>(({ code }) => {
