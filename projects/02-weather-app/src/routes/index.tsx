@@ -1,10 +1,17 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useSignal } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
+import { WiSwitcher } from "~/components/icons/wi-switcher";
 
 export default component$(() => {
+  const city = useSignal("Granada");
+
   return (
     <>
-      <h1>Weather App</h1>
+      <h1>
+        The weather in <span>{city.value}</span>
+      </h1>
+      <WiSwitcher code="01d" />
+      <WiSwitcher code="04n" />
     </>
   );
 });

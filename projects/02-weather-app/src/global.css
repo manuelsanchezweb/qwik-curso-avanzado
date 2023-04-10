@@ -13,3 +13,30 @@
   padding: 0;
   margin: 0;
 }
+
+:root {
+  --color-brand: #92e9bf;
+  --color-brand-darker: #389c6c;
+  --color-brand-opacity: rgba(146, 233, 191, 0.4);
+  --color-text-main: #181818;
+  --color-bg: #f3f3f3;
+  --color-bg-lighter: #fff;
+  --shadow: 0px 1px 6px rgba(0, 0, 0, 0.1), 0px 6px 24px rgba(0, 0, 0, 0.13);
+}
+
+body {
+  background-color: var(--color-bg);
+  font-family: "Helvetica", sans-serif;
+  padding: 0 20px;
+}
+
+h1 {
+  text-align: left;
+  width: 100%;
+  font-size: 41px;
+  margin: 50px 0 0;
+
+  & span {
+    color: var(--color-brand);
+  }
+}
