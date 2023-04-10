@@ -33,7 +33,7 @@ export const WeatherInfo = component$(({ city }: { city: Signal<string> }) => {
       onPending={() => <>Cargando...</>}
       onRejected={(error) => <>Error: {error.message}</>}
       onResolved={(weatherData: WeatherDataProps) => {
-        console.log(weatherData);
+        // console.log(weatherData);
         return (
           <div class="weather">
             <div class="weather__current">
