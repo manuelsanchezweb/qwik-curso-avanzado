@@ -1,5 +1,5 @@
 import { component$, useSignal } from "@builder.io/qwik";
-import { Link, routeLoader$ } from "@builder.io/qwik-city";
+import { Link, routeLoader$, type DocumentHead } from "@builder.io/qwik-city";
 import { fetchSimpsons } from "~/api/fetchSimpsons";
 import Container from "~/components/container";
 import { IconQuote } from "~/components/icons/icon-quote";
@@ -85,3 +85,55 @@ export default component$(() => {
     </Container>
   );
 });
+
+export const head: DocumentHead = {
+  title: "Home - The Simpsons App",
+  meta: [
+    {
+      name: "description",
+      content: "Página de home de la aplicación The Simpsons App",
+    },
+    {
+      name: "og:title",
+      content: "Home - The Simpsons App",
+    },
+    {
+      name: "og:description",
+      content: "Página de home de la aplicación The Simpsons App",
+    },
+    {
+      name: "og:image",
+      content:
+        "https://simpsons-qwik-curso-avanzado.vercel.app/img/thumbnail.png",
+    },
+    {
+      name: "og:url",
+      content: "https://simpsons-qwik-curso-avanzado.vercel.app/",
+    },
+    {
+      name: "keywords",
+      content: "The Simpsons, Quotes, App",
+    },
+    {
+      name: "author",
+      content: "manuelsanchezweb",
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      name: "twitter:title",
+      content: "Home - The Simpsons App",
+    },
+    {
+      name: "twitter:description",
+      content: "Página de home de la aplicación The Simpsons App",
+    },
+    {
+      name: "twitter:image",
+      content:
+        "https://simpsons-qwik-curso-avanzado.vercel.app/img/thumbnail.png",
+    },
+  ],
+};
