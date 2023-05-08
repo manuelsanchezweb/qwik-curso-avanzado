@@ -1,6 +1,7 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "App with Routing built-in (recommended)",
+  "name": "weather-app-qwik",
+  "version": "1.0.0",
+  "description": "Simple Weather App",
   "engines": {
     "node": ">=15.0.0"
   },
@@ -22,22 +23,22 @@
     "qwik": "qwik"
   },
   "devDependencies": {
-    "@builder.io/qwik": "0.100.0",
-    "@builder.io/qwik-city": "~0.100.0",
-    "@types/eslint": "8.21.3",
-    "@types/node": "^18.15.9",
-    "@typescript-eslint/eslint-plugin": "5.56.0",
-    "@typescript-eslint/parser": "5.56.0",
-    "autoprefixer": "^10.4.13",
-    "eslint": "8.36.0",
-    "eslint-plugin-qwik": "0.100.0",
-    "postcss": "^8.4.16",
-    "postcss-preset-env": "^8.0.1",
-    "prettier": "2.8.7",
-    "typescript": "5.0.2",
-    "undici": "5.21.0",
-    "vercel": "^28.4.17",
-    "vite": "4.2.1",
-    "vite-tsconfig-paths": "3.5.0"
+    "@builder.io/qwik": "1.0.0",
+    "@builder.io/qwik-city": "~1.0.0",
+    "@types/eslint": "8.37.0",
+    "@types/node": "^20.1.0",
+    "@typescript-eslint/eslint-plugin": "5.59.2",
+    "@typescript-eslint/parser": "5.59.2",
+    "autoprefixer": "^10.4.14",
+    "eslint": "8.40.0",
+    "eslint-plugin-qwik": "1.0.0",
+    "postcss": "^8.4.23",
+    "postcss-preset-env": "^8.3.2",
+    "prettier": "2.8.8",
+    "typescript": "5.0.4",
+    "undici": "5.22.0",
+    "vercel": "^29.1.1",
+    "vite": "4.3.5",
+    "vite-tsconfig-paths": "4.2.0"
   }
 }
