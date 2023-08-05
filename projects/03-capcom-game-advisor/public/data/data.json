@@ -1,0 +1,216 @@
+[
+  {
+    "id": 1,
+    "name": "Monster Hunter Rise",
+    "description": "Monster Hunter Rise is the latest game in the Monster Hunter series. In this action RPG, players can experience new hunting actions with the Wirebug, control monsters with Wyvern Riding, and fend off hordes of monsters in The Rampage. The game is set in Kamura Village, and it also introduces new features like Buddies and endemic life.",
+    "genres": ["action", "rpg"],
+    "urlOfficial": "https://www.monsterhunter.com/rise/us/",
+    "platforms": [
+      {
+        "name": "ps5",
+        "url": "https://www.monsterhunter.com/rise/us/"
+      },
+      {
+        "name": "ps4",
+        "url": "https://www.monsterhunter.com/rise/us/"
+      },
+      {
+        "name": "switch",
+        "url": "https://www.monsterhunter.com/rise/us/"
+      },
+      {
+        "name": "steam",
+        "url": "https://www.monsterhunter.com/rise/us/"
+      },
+      {
+        "name": "xbox-series",
+        "url": "https://www.monsterhunter.com/rise/us/"
+      },
+      {
+        "name": "xbox-one",
+        "url": "https://www.monsterhunter.com/rise/us/"
+      }
+    ],
+    "assets": {
+      "imgBig": {
+        "url": "img/lgMonsterHunter.png",
+        "copyrightUrl": "https://www.monsterhunter.com/rise/assets/images/mv-am.jpg"
+      },
+      "imgSmall": {
+        "url": "img/smMonsterHunter.png",
+        "copyrightUrl": "https://www.monsterhunter.com/rise/assets/images/mv-am.jpg"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Resident Evil 4 Remake",
+    "description": "Resident Evil 4 is a remake of the 2005 original Resident Evil 4. Reimagined for 2023 to bring state-of-the-art survival horror. Resident Evil 4 preserves the essence of the original game, while introducing modernized gameplay, a reimagined storyline, and vividly detailed graphics to make this the latest survival horror game where life and death, terror and catharsis intersect.",
+    "genres": ["action", "shooting", "adventure", "horror"],
+    "urlOfficial": "https://www.residentevil.com/re4/en-uk/",
+    "platforms": [
+      {
+        "name": "ps5",
+        "url": "https://www.residentevil.com/re4/en-uk/"
+      },
+      {
+        "name": "xbox-series",
+        "url": "https://www.residentevil.com/re4/en-uk/"
+      }
+    ],
+    "assets": {
+      "imgBig": {
+        "url": "img/lgRE4.png",
+        "copyrightUrl": "https://www.residentevil.com/re4/en-uk/"
+      },
+      "imgSmall": {
+        "url": "img/smRE4.png",
+        "copyrightUrl": "https://www.residentevil.com/re4/en-uk/"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Devil May Cry 5 Special Edition",
+    "description": "Devil May Cry is back. The legendary stylish action game is better than ever in the ultimate version of this multi-award winning hit. New features include the addition of Dante's brother and arch-rival, Vergil, as a playable character, Legendary Dark Knight mode, Turbo mode and Ray Tracing support.",
+    "genres": ["action", "adventure"],
+    "urlOfficial": "https://www.devilmaycry.com/5se/",
+    "platforms": [
+      {
+        "name": "ps5",
+        "url": "https://www.devilmaycry.com/5se/"
+      },
+      {
+        "name": "xbox-series",
+        "url": "https://www.devilmaycry.com/5se/"
+      }
+    ],
+    "assets": {
+      "imgBig": {
+        "url": "img/lgDMC.png",
+        "copyrightUrl": "https://www.devilmaycry.com/5se/"
+      },
+      "imgSmall": {
+        "url": "img/smDMC.png",
+        "copyright": "https://www.devilmaycry.com/5se/"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Street Fighter VI",
+    "description": "Fighting games are back. Street Fighter VI is the latest entry in the Street Fighter series. The game features a new fighting system, new characters, and new stages. Street Fighter VI is a 2D fighting game released in 2022.",
+    "genres": ["fighting"],
+    "urlOfficial": "https://www.streetfighter.com/6/en-uk",
+    "platforms": [
+      {
+        "name": "ps5",
+        "url": "https://www.streetfighter.com/6/en-uk"
+      },
+      {
+        "name": "ps4",
+        "url": "https://www.streetfighter.com/6/en-uk"
+      },
+      {
+        "name": "xbox-series",
+        "url": "https://www.streetfighter.com/6/en-uk"
+      },
+      {
+        "name": "steam",
+        "url": "https://www.streetfighter.com/6/en-uk"
+      }
+    ],
+    "assets": {
+      "imgBig": {
+        "url": "img/lgSF6.png",
+        "copyrightUrl": "https://www.streetfighter.com/6/en-uk"
+      },
+      "imgSmall": {
+        "url": "img/smSF6.png",
+        "copyrightUrl": "https://www.streetfighter.com/6/en-uk"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Exoprimal",
+    "description": "Exoprimal is a game about a group of people who are stranded on a planet. They must survive by hunting and gathering food, building shelter, and defending themselves from predators. The game is set in a procedurally generated world with different biomes and weather conditions. The player can explore the world, gather resources, and craft items to survive. It will be published on the 14th July 2023.",
+    "genres": ["action", "adventure", "survival"],
+    "urlOfficial": "https://www.exoprimal.com/",
+    "platforms": [
+      {
+        "name": "ps5",
+        "url": "https://www.exoprimal.com/"
+      },
+      {
+        "name": "ps4",
+        "url": "https://www.exoprimal.com/"
+      },
+      {
+        "name": "steam",
+        "url": "https://www.exoprimal.com/"
+      },
+      {
+        "name": "xbox-series",
+        "url": "https://www.exoprimal.com/"
+      },
+      {
+        "name": "xbox-one",
+        "url": "https://www.exoprimal.com/"
+      }
+    ],
+    "assets": {
+      "imgBig": {
+        "url": "img/lgExoprimal.png",
+        "copyrightUrl": "https://www.exoprimal.com/"
+      },
+      "imgSmall": {
+        "url": "img/smExoprimal.png",
+        "copyrightUrl": "https://www.exoprimal.com/"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Megaman Zero/ZX Legacy Collection",
+    "description": "Megaman's last game is here! This time brings together six classic titles in one game: Megaman Zero 1, 2, 3, 4, Megaman ZX and ZX Advent. In addition to the original games, this package includes an artwork gallery, music player, special filters, and much more. Megaman Zero/ZX Legacy Collection is a 2D action game released in 2020.",
+    "genres": ["action", "adventure"],
+    "urlOfficial": "https://www.megaman-zzxlc.com/us/",
+    "platforms": [
+      {
+        "name": "ps5",
+        "url": "https://www.megaman-zzxlc.com/us/"
+      },
+      {
+        "name": "ps4",
+        "url": "https://www.megaman-zzxlc.com/us/"
+      },
+      {
+        "name": "xbox-series",
+        "url": "https://www.megaman-zzxlc.com/us/"
+      },
+      {
+        "name": "xbox-one",
+        "url": "https://www.megaman-zzxlc.com/us/"
+      },
+      {
+        "name": "steam",
+        "url": "https://www.megaman-zzxlc.com/us/"
+      },
+      {
+        "name": "switch",
+        "url": "https://www.megaman-zzxlc.com/us/"
+      }
+    ],
+    "assets": {
+      "imgBig": {
+        "url": "img/lgMegaman.png",
+        "copyrightUrl": "https://www.megaman-zzxlc.com/us/"
+      },
+      "imgSmall": {
+        "url": "img/smMegaman.png",
+        "copyrightUrl": "https://www.megaman-zzxlc.com/us/"
+      }
+    }
+  }
+]

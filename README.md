@@ -11,9 +11,7 @@ Este curso es una continuación del curso de
 
 ## 😁 Cómo acceder al curso
 
-El curso se encuentra en **UDEMY** y puedes acceder a él a través del siguiente [enlace](https://www.udemy.com/user/manuel-sanchez-324/).
-
-El curso lo estoy haciendo con la versión de **Node 16.15.1**, así que de esa versión en adelante todo debería ir bien.
+El curso se encuentra en **UDEMY** y puedes acceder a él a través del siguiente [enlace](https://www.udemy.com/course/curso-intermedio-qwik-espanol/?referralCode=3D453D600C0CB529D84B).
 
 ## ⌨️ Proyectos
 
@@ -21,6 +19,7 @@ En el repositorio encontrarás cada uno de los proyectos. A lo largo del curso v
 
 - 01: [The Simpsons Quote App](projects/01-simpsons-quote/)
 - 02: [The Weather App](projects/02-weather-app/)
+- 02: [Capcom Game Advisor](projects/03-capcom-game-advisor/)
 
 ## 🚀 Material complementario
 
