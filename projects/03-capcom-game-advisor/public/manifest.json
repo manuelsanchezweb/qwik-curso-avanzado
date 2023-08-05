@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "capcom-game-advisor",
+  "short_name": "Capcom Game Advisor",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "An app to find out the best game for you."
+}
