@@ -32,10 +32,6 @@
       }
     ],
     "assets": {
-      "imgBig": {
-        "url": "img/lgMonsterHunter.png",
-        "copyrightUrl": "https://www.monsterhunter.com/rise/assets/images/mv-am.jpg"
-      },
       "imgSmall": {
         "url": "img/smMonsterHunter.png",
         "copyrightUrl": "https://www.monsterhunter.com/rise/assets/images/mv-am.jpg"
@@ -59,10 +55,6 @@
       }
     ],
     "assets": {
-      "imgBig": {
-        "url": "img/lgRE4.png",
-        "copyrightUrl": "https://www.residentevil.com/re4/en-uk/"
-      },
       "imgSmall": {
         "url": "img/smRE4.png",
         "copyrightUrl": "https://www.residentevil.com/re4/en-uk/"
@@ -86,10 +78,6 @@
       }
     ],
     "assets": {
-      "imgBig": {
-        "url": "img/lgDMC.png",
-        "copyrightUrl": "https://www.devilmaycry.com/5se/"
-      },
       "imgSmall": {
         "url": "img/smDMC.png",
         "copyright": "https://www.devilmaycry.com/5se/"
@@ -121,10 +109,6 @@
       }
     ],
     "assets": {
-      "imgBig": {
-        "url": "img/lgSF6.png",
-        "copyrightUrl": "https://www.streetfighter.com/6/en-uk"
-      },
       "imgSmall": {
         "url": "img/smSF6.png",
         "copyrightUrl": "https://www.streetfighter.com/6/en-uk"
@@ -160,10 +144,6 @@
       }
     ],
     "assets": {
-      "imgBig": {
-        "url": "img/lgExoprimal.png",
-        "copyrightUrl": "https://www.exoprimal.com/"
-      },
       "imgSmall": {
         "url": "img/smExoprimal.png",
         "copyrightUrl": "https://www.exoprimal.com/"
@@ -203,10 +183,6 @@
       }
     ],
     "assets": {
-      "imgBig": {
-        "url": "img/lgMegaman.png",
-        "copyrightUrl": "https://www.megaman-zzxlc.com/us/"
-      },
       "imgSmall": {
         "url": "img/smMegaman.png",
         "copyrightUrl": "https://www.megaman-zzxlc.com/us/"

@@ -1,4 +1,12 @@
 /**
+ * Tailwind CSS imports
+ * View the full documentation at https://tailwindcss.com
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
  * WHAT IS THIS FILE?
  *
  * Globally applied styles. No matter which components are in the page or matching route,
@@ -7,13 +15,17 @@
  */
 
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
-  --qwik-dark-text: #ffffff;
+  --capcom-text: #090002;
+  --capcom-bg: #e5e7eb;
+  --capcom-yellow: #ffcb08;
+  --capcom-blue: #0047a0;
+
+  --max-page: 1440px;
+}
+
+[data-theme='dark'] {
+  --capcom-text: #e5e7eb;
+  --capcom-bg: #121212;
 }
 
 html {
@@ -28,7 +40,24 @@ html {
 }
 
 body {
-  padding: 0;
-  margin: 0;
-  line-height: inherit;
+  background-color: var(--capcom-bg);
+  color: var(--capcom-text);
+}
+
+@layer components {
+  .btn {
+    @apply bg-capcomBlue text-capcomWhite text-center font-bold py-2 px-4 rounded transition-transform hover:scale-105 focus:scale-105;
+  }
+
+  .btn--border {
+    @apply border-2 bg-capcomYellow border-capcomBlue text-capcomBlue;
+  }
+
+  .btn--icon {
+    @apply btn btn--border rounded-full h-[40px] w-[40px] flex items-center justify-center p-0;
+  }
+
+  .link {
+    @apply text-capcomBlue font-semibold hover:underline focus:underline;
+  }
 }
